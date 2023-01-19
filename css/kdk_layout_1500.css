@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+
+
+
+/* 배경 인터렉션 영역 */
+/* 섹션 01 이미지 */
+.miralHstryImg > div > div > div > ul > li .imgBx{margin-bottom: 12px;}
+.miralHstryImg > div > div > div > ul > li p{font-size: 20px;}
+/* 오른쪽 이미지 영역 */
+.miralHstryImg > div > div > .rghtImgBx > ul > li:nth-child(2) .imgBx{margin-left: 0;}
+
+
+
+
+
+.sct03 .txt > p{font-size: 25px; line-height: 55px;}
+
+
+
+
+
+
+
+
+
+
+
+
+

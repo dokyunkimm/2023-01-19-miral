@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+/* 공통 */
+.sldWrpTtl > h1{font-size: 42px;}
+.sldWrpTtl > span{font-size: 14px;}
+
+/* ************  #wrapSub02  *****************/
+/* slide01 */
+#wrapSub02 .sldWrp01Bg{width: 450px;height: 171px;}
+
+/* slide02 */
+/* #wrapSub02 .sldWrp02 .sct01 > div{width: 100%;margin-right: 0;margin-top: 20px;height: 280px;}
+#wrapSub02 .sldWrp02 .sct01 > div:nth-child(1){margin-top: 0;}
+#wrapSub02 .sldWrp02 .sct01 > div:nth-child(3), #wrapSub02 .sldWrp02 .sct01 > div:nth-child(4), #wrapSub02 .sldWrp02 .sct01 > div:nth-child(5){margin-right: 0;margin-top: 20px;}
+#wrapSub02 .sldWrp02 .sct01 > div .imgBx{width: 10vh;}
+#wrapSub02 .sldWrp03 .sct01 .swiperCon .txtBx > h3{font-size: 20px;margin-bottom: 10px;}
+#wrapSub02 .sldWrp03 .sct01 .swiperCon .txtBx > p{font-size: 10px;line-height: 20px;} */
+/* #wrapSub02 .sldWrp02Inr{width: calc(100% - 40px);} */
+#wrapSub02 .sldWrp02 .sct01 > div{height: 230px;}
+#wrapSub02 .sldWrp02 .sct01 > div .imgBx{width: 8vh;}
+#wrapSub02 .sldWrp02 .sct01 > div .txtBx{margin-top: 5px;}
+#wrapSub02 .sldWrp02 .sct01 > div .txtBx > li{font-size: 14px;}
+#wrapSub02 .sldWrp02 .sct01 > div .txtBx > li > h2{font-size: 28px;}
+#wrapSub02 .sldWrp02 .sct01 > div .txtBx > li > p{font-size: 14px;margin-top: 13px;}
+#wrapSub02 .sldWrp02 .sct01 > div .txtBx > li > span{font-size: 10px;margin-top: 5px;}
+
+/* slide03 */
+#wrapSub02 .sldWrp03 .sct01 .swiper-slide{width: calc(100% - 40px);padding-bottom: 35px;margin: 0 30px;}
+#wrapSub02 .sldWrp03 .sct01 .swiperCon .txtBx{border-radius: 0 5px 5px 0;overflow: hidden;}
+#wrapSub02 .sldWrp03 .sct01 .swiperCon .txtBx > h3{font-size: 18px;margin-bottom: 10px;}
+#wrapSub02 .sldWrp03 .sct01 .swiperCon .txtBx > p{font-size: 10px;line-height: 20px;}
+#wrapSub02 .swiperBtn{display: none;}
+#wrapSub02 .swiper-pagination{display: block;}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{bottom: 0;}
+#wrapSub02  .swiper-pagination-bullet{background-color: #009542;}
+
+/* slide04 */
+#wrapSub02 .sldWrp04Inr .map .markBx .mark > a{padding: 5px 16px 4px 6px;}
+#wrapSub02 .sldWrp04Inr .map .markBx .mark > a::before{width: 6px;height: 6px;bottom: -6px;}
+#wrapSub02 .sldWrp04Inr .map .markBx .mark > a::after{width: 7px;height: 7px;right: 6px;}
+
+
+
+/* ************  #wrapSub03  *****************/
+/* slide01 */
+#wrapSub03 .sldWrp01Bg{width: 490px;height: 141px;}
+
+
+/* slide03 */
+#wrapSub03 .sldWrp03 .vdBx{margin: 60px auto 0;}
+#wrapSub03 .sldWrp03 .vdBx::after{width: 60px;height: 45px;}
+#wrapSub03 .sldWrp03 .conBx > ul > li{width: calc(50% - 5px);}
+#wrapSub03 .sldWrp03 .conBx > ul > li:nth-child(3), #wrapSub03 .sldWrp03 .conBx > ul > li:nth-child(4){margin-top: 10px;}
+#wrapSub03 .sldWrp03 .conBx > ul > li > a{height: 75px;}
+#wrapSub03 .sldWrp03 .conBx .imgBx{width: 50px;}
+#wrapSub03 .sldWrp03 .conBx .txtBx{width: calc(100% - 125px);}
+#wrapSub03 .sldWrp03 .conBx .txtBx > h3{font-size: 13px;}
+#wrapSub03 .sldWrp03 .conBx .txtBx > p{font-size: 13px;}
+
+
+/* slide05 */
+#wrapSub03 .sldWrp05 .sct01{flex-direction: column;justify-content: initial;}
+#wrapSub03 .sldWrp05 .sct01 > div{width: 100%;padding: 30px;box-shadow: 0 0 30px rgba(0,0,0,0.2);}
+#wrapSub03 .sldWrp05 .sct01 > div:not(:last-child){margin-bottom: 30px;}
+#wrapSub03 .sldWrp05 .sct01 .txtBx > a > div > span{font-size: 15px;}
+#wrapSub03 .sldWrp05 .sct01 .txtBx > a > div > p{font-size: 19px;margin-top: 10px;}
+#wrapSub03 .sldWrp05 .sct01 .txtBx .btnRig{width: 30px;height: 30px;}
+#wrapSub03 .sldWrp05 .sct01 .txtBx .btnRig > img{width: 7px;}
+

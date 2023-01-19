@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+
+
+/* 공통 */
+#wrapSub02 > div, #wrapSub03 > div{padding: 120px 0;}
+.sldWrpTtl > h1{font-size: 58px;}
+.sldWrpTtl > span{font-size: 15px;}
+.sldBtn{width: 205px;height: 58px;}
+.sldBtn > a::before{width: 8px;height: 12px;right: 23px;top: 48%;}
+.sldBtn > a > span{font-size: 16px;margin-left: 23px;line-height: 58px;}
+
+
+/* ************  #wrapSub02  *****************/
+
+#wrapSub02 .sldWrpTtl{padding-bottom: 55px !important;}
+
+/* slide01 */
+#wrapSub02 .sldWrp01Bg{width: 600px;height: 229px;}
+
+/* slide02 */
+#wrapSub02 .sldWrp02Inr{width: calc(100% - 40px);}
+#wrapSub02 .sldWrp02 .sct01 > div{height: 295px;width: calc(100% / 2 - 10px);margin-right: 20px;}
+#wrapSub02 .sldWrp02 .sct01 > div:nth-child(3){margin-top: 20px;margin-right: 20px;}
+#wrapSub02 .sldWrp02 .sct01 > div:nth-child(4), #wrapSub02 .sldWrp02 .sct01 > div:nth-child(5){margin-top: 20px;}
+
+#wrapSub02 .sldWrp02 .sct01 > div .txtBx > li{font-size: 16px;}
+#wrapSub02 .sldWrp02 .sct01 > div .txtBx > li > h2{font-size: 34px;}
+#wrapSub02 .sldWrp02 .sct01 > div .txtBx > li > p{font-size: 16px;margin-top: 15px;}
+#wrapSub02 .sldWrp02 .sct01 > div .txtBx > li > span{font-size: 11px;margin-top: 10px;}
+
+/* slide03 */
+#wrapSub02 .sldWrp03{padding: 120px 0;}
+#wrapSub02 .sldWrp03 .sct01 .swiper-slide{width: calc(100% - 300px);height: auto;margin: 0 100px;}
+#wrapSub02 .sldWrp03 .sct01 .swiperCon{flex-direction: column;}
+#wrapSub02 .sldWrp03 .sct01 .swiperCon > *{width: 100%;height: 50%;}
+#wrapSub02 .sldWrp03 .sct01 .swiperCon .txtBx{padding: 0;display: flex;flex-direction: column;justify-content: center;align-items: center;text-align: center;}
+#wrapSub02 .sldWrp03 .sct01 .swiperCon .txtBx > h3{margin-bottom: 20px;font-size: 24px;}
+#wrapSub02 .sldWrp03 .sct01 .swiperCon .txtBx > p{line-height: 25px;font-size: 12px;}
+#wrapSub02 .swiperBtn{width: calc(100% - 40px);}
+
+/* slide04 */
+#wrapSub02 .sldWrp04Inr{width: calc(100% - 40px);}
+#wrapSub02 .sldWrp04Inr .map .markBx .mark > a{padding: 9px 28px 8px 13px;font-size: 12px;}
+#wrapSub02 .sldWrp04Inr .map .markBx .mark > a::before{width: 11px;height: 11px;bottom: -11px;transform: rotate(45deg) translateX(-88%);}
+#wrapSub02 .sldWrp04Inr .map .markBx .mark > a::after{width: 11px;height: 11px;right: 12px;}
+
+
+
+/* ************  #wrapSub03  *****************/
+#wrapSub03 .sldWrpInr{width: calc(100% - 40px);}
+
+/* slide01 */
+#wrapSub03 .sldWrp01Bg{width: 660px;height: 190px;}
+
+
+/* slide03 */
+#wrapSub03 .sldWrp03 .conBx > ul{flex-wrap: wrap;}
+#wrapSub03 .sldWrp03 .conBx > ul > li{width: calc(50% - 7.5px);}
+#wrapSub03 .sldWrp03 .conBx > ul > li:nth-child(3), #wrapSub03 .sldWrp03 .conBx > ul > li:nth-child(4){margin-top: 15px;}
+#wrapSub03 .sldWrp03 .conBx .txtBx{width: calc(100% - 140px);text-align: center;}
+#wrapSub03 .sldWrp03 .conBx .imgBx{width: 60px;}
+
+/* slide05 */
+#wrapSub03 .sldWrp05 .sct01{margin-top: 60px;}
+#wrapSub03 .sldWrp05 .sct01 > div{width: calc(100% / 3 - 10px);padding: 15px;}
+#wrapSub03 .sldWrp05 .sct01 .imgBx{margin-bottom: 15px;}
+#wrapSub03 .sldWrp05 .sct01 .txtBx > a > div > span{font-size: 12px;}
+#wrapSub03 .sldWrp05 .sct01 .txtBx > a > div > p{font-size: 15px;}
+
+
+
+
+@media screen and (max-width: 960px){
+
+    /* ************  #wrapSub02  *****************/
+    /* #wrapSub02 .sldWrp02Inr{width: calc(100% - 100px);} */
+    /* #wrapSub02 .sldWrp02 .sct01 > div{height: 295px;}
+    #wrapSub02 .sldWrp02 .sct01 > div .txtBx > li{font-size: 16px;}
+    #wrapSub02 .sldWrp02 .sct01 > div .txtBx > li > h2{font-size: 34px;}
+    #wrapSub02 .sldWrp02 .sct01 > div .txtBx > li > p{font-size: 16px;margin-top: 15px;}
+    #wrapSub02 .sldWrp02 .sct01 > div .txtBx > li > span{font-size: 11px;margin-top: 10px;} */
+
+
+    /* slide04 */
+    /* #wrapSub02 .sldWrp04Inr{width: calc(100% - 60px);} */
+
+
+}
+
+@media screen and (max-width: 850px){
+
+
+    /* ************  #wrapSub02  *****************/
+    /* slide03 */
+    #wrapSub02 .sldWrp03 .sct01 .swiper-slide{width: calc(100% - 200px);}
+    #wrapSub02 .sldWrp03 .sct01 .swiperCon .txtBx > h3{margin-bottom: 15px;font-size: 22px;}
+    #wrapSub02 .sldWrp03 .sct01 .swiperCon .txtBx > p{line-height: 23px;font-size: 11px;}
+
+
+    #wrapSub02 .sldWrp04Inr .map .markBx .mark > a{padding: 7px 24px 6px 10px;font-size: 10px}
+    #wrapSub02 .sldWrp04Inr .map .markBx .mark > a::before{width: 9px;height: 9px;bottom: -9px;}
+    #wrapSub02 .sldWrp04Inr .map .markBx .mark > a::after{width: 9px;height: 9px;right: 10px;}
+    #wrapSub02 .sldWrp04Inr .map .markBx .mark:nth-child(6) > a{left: 8%;}
+    #wrapSub02 .sldWrp04Inr .map .markBx .mark:nth-child(9) > a{left: 7%;top: 58.7%;}
+}
+
+
+   
